@@ -1,5 +1,5 @@
 {
-    "name": "cycle/entity-behavior",
+    "name": "wpjscc/entity-behavior",
     "description": "Provides a collection of attributes that add behaviors to Cycle ORM entities",
     "type": "library",
     "license": "MIT",
@@ -37,14 +37,14 @@
     "require": {
         "php": ">=8.0",
         "psr/event-dispatcher": "^1",
-        "cycle/database": "^2.14",
-        "cycle/orm": "^2.10",
-        "cycle/schema-builder": "^2.8",
+        "wpjscc/database": "^2",
+        "wpjscc/orm": "2.x-dev",
+        "wpjscc/schema-builde": "2.x-dev",
         "psr/container": "^1.0|^2.0",
         "yiisoft/injector": "^1.0"
     },
     "require-dev": {
-        "cycle/annotated": "^3.0",
+        "wpjscc/annotated": "4.x-dev",
         "phpunit/phpunit": "^9.5",
         "ramsey/uuid": "^4.5",
         "spiral/code-style": "^2.2",
